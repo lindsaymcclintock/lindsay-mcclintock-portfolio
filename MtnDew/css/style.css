@@ -1,0 +1,61 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+iframe{
+    height:400px;
+}
+.author {
+    color: black;
+    font-size: 45pt;
+    text-shadow: 2px 2px 5px white;
+}
+
+.title{
+    color: rgb(237, 26, 55);
+    font-size: 75pt;
+    text-shadow: 2px 2px 5px white;
+}
+
+.intro{
+    color: rgb(7, 112, 60);
+    font-size: 25pt;
+}
+
+.explanation{
+    color:  rgb(7, 112, 60);
+    font-size: 25pt;
+}
+.definitions{
+    color:  rgb(255, 255, 255);
+    font-size: 20pt;
+}
+.background-trans{
+    background-color:rgba(2, 2, 2, 0.788);
+    padding:20px;
+}
+.captions {
+    color:  white;
+    font-size: 25px;
+    padding: 8px 0px;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+    background:rgba(0, 0, 0, 0.938);
+}
+
+.center1{
+    flex: 0 0 auto;
+    width:100% !important;
+}
+
+.background-item1{
+    width:100%;
+    height:100%;
+    z-index:0;
+    position:sticky;
+    display:block;
+    top:0;
+    margin-bottom:20%;
+}
