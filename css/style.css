@@ -1,0 +1,161 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #4e8b9c;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #0c2045;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #0c2045;
+    background-color: #0c2045;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #787878;
+    color: #0c2045;
+    fill: #0c2045;
+    border-color: #fff;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-color:#787878;
+    text-align: center;
+    color: white;
+    border-radius: 0px;
+    padding: 1%;
+    
+}
+
+.jumbotron h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img-responsive{
+    width:100%;
+}
+
+/*** CARD ***/
+
+.card {
+    border-radius: 6px;
+    background-color: #fff;
+    border-color: #cccccc;
+    border-width: 1px; 
+    width: 100%;
+    
+
+}
+
+.card:hover {
+    border-color: #0c2045;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-width: 100%;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: #4e8b9c;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #4e8b9c;
+}
+
+a:hover {
+    color: #787878;
+}
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f7f1fa;
+    color: #0c2045;
+    border-radius: 6px;
+}
+
+img {
+    width: 100%;
+    padding: 20px;
+
+    
+}
+
+.rightcolumn {
+    float: left;
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+.leftcolumn {   
+    float: left;
+    width: 20%;
+    padding-left: 10px;
+    font-size:20px;
+  }
+.icon {
+    width: 100%
+}  
+
+.img1{
+    width: 100%;
+    border-radius: 50%;
+    padding: 20px;
+}
+.header{
+    font-size: 24px;
+    color: #0c2045;
+}
